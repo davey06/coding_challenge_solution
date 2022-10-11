@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:coding_challenge/baseball_game/solution.dart';
-import 'package:coding_challenge/validating_parentheses/solution.dart';
+import 'baseball_game/solution.dart';
+import 'validating_parentheses/solution.dart';
 
 void main(List<String> arguments) {
   print("Welcome to Coding Challenge Test");
