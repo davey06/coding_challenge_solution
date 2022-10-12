@@ -20,8 +20,9 @@ def calPoints(ops) -> int:
     return result
   
 if __name__ == "__main__": 
-    line = '5 -2 + D'   
-    # line = input("Enter Score ex(5,2,+,D): ")
+    # line = '5 -2 + D'   
+    line = input("Enter Score ex(5,2,+,D): ")
+
     ops = line.strip().split()
     
     print(calPoints(ops))

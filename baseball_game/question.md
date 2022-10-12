@@ -1,4 +1,4 @@
-## Baseball Game:
+# Baseball Game:
 
 You are keeping score for a baseball game with strange rules. The game consists of several rounds where the scores of past rounds may affect future rounds' scores.
 
@@ -12,24 +12,6 @@ of the following:
 
 Return *the sum of all the scores on the record*.
 
-Example 1:
-
-`Input: ops = ["5", "2", "C", "D", "+"]`
-
-`Output: 30`
-
-Example 2:
-
-`Input: ops = ["5", "-2", "4", "C", "D", "9", "+", "+"]`
-
-`Output: 27`
-
-Example 3:
-
-`Input: ops = ["1"]`
-
-`Output: 1`
-
 
 ## Constraints
 
@@ -37,3 +19,18 @@ Example 3:
 - `ops[i]` is `"C"`, `"D"`, `"+"`, or a string representing an integer in the range `[-3 * 104, 3 * 104]`
 - For operation `"+"`, there will always be two previous scores on the record.
 - For operation `"C"` and `"D"`, there will always be at least one previous score on the record.
+
+### Test Case
+```js
+Example 1:
+`Input: ops = ["5", "2", "C", "D", "+"]`
+`Output: 30`
+
+Example 2:
+`Input: ops = ["5", "-2", "4", "C", "D", "9", "+", "+"]`
+`Output: 27`
+
+Example 3:
+`Input: ops = ["1"]`
+`Output: 1`
+```
